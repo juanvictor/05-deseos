@@ -9,10 +9,10 @@ export class Lista {
     items: ListaItem[];
 
     constructor( titulo: string ) {
-        this.titulo = titulo;
-        this.creadaEn = new Date();
+        this.titulo    = titulo;
+        this.creadaEn  = new Date();
         this.terminada = false;
-        this.items = [];
+        this.items     = [];
 
         this.id = new Date().getTime();
     }
